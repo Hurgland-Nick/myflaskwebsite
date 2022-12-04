@@ -205,6 +205,6 @@ def Pandas_datatable():
     return render_template('Manipulation des Données avec Pandas Vs R Data.Table.html')
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0')
+    app.run(debug=True)
 
 
